@@ -1,0 +1,76 @@
+{
+ "events": [
+  {
+   "venue": "Burien Town Square",
+   "title": "Burien Farmer's Market",
+   "date": "2026-10-01",
+   "time": "10:00",
+   "url": "https://www.discoverburien.org/calendar/2025/10/2/burien-farmers-market",
+   "type": "community"
+  },
+  {
+   "venue": "Highline Performing Arts Center",
+   "title": "Rey Valera Live In Seattle",
+   "date": "2026-10-04",
+   "time": "18:00",
+   "url": "http://rvseattle.s.gy/2026",
+   "type": "arts"
+  },
+  {
+   "venue": "Highline Performing Arts Center",
+   "title": "Thunderstruck: A Classic Rock Tribute",
+   "date": "2026-10-06",
+   "time": "19:00",
+   "url": "https://blue-violin.com/thunderstruck/",
+   "type": "arts"
+  },
+  {
+   "venue": "The Tin Room",
+   "title": "Monthly Pride Happy Hour",
+   "date": "2026-10-07",
+   "time": "17:00",
+   "url": "https://www.discoverburien.org/calendar/2025/12/pride-happy-hour",
+   "type": "community"
+  },
+  {
+   "venue": "Burien Town Square",
+   "title": "Burien Farmer's Market",
+   "date": "2026-10-08",
+   "time": "10:00",
+   "url": "https://www.discoverburien.org/calendar/2025/10/9/burien-farmers-market",
+   "type": "community"
+  },
+  {
+   "venue": "Around Burien",
+   "title": "Burien Uncorked",
+   "date": "2026-10-10",
+   "time": "13:00",
+   "url": "https://www.discoverburien.org/calendar/2026/10/burien-uncorked-wine-walk",
+   "type": "community"
+  },
+  {
+   "venue": "Highline Performing Arts Center",
+   "title": "40th Anniversary Season Family Concert \"Sounds of the American West\" - In Celebration of America's 250th Anniversary",
+   "date": "2026-10-10",
+   "time": "19:30",
+   "url": "https://www.northwestsymphonyorchestra.org/",
+   "type": "arts"
+  },
+  {
+   "venue": "Burien Town Square",
+   "title": "Burien Farmer's Market",
+   "date": "2026-10-15",
+   "time": "10:00",
+   "url": "https://www.discoverburien.org/calendar/2025/10/16/burien-farmers-market",
+   "type": "community"
+  },
+  {
+   "venue": "Des Moines",
+   "title": "Halloween Spooktacular Family Night",
+   "date": "2026-10-16",
+   "time": "18:00",
+   "url": "https://www.desmoineswa.gov/Calendar.aspx?EID=1544",
+   "type": "community"
+  }
+ ]
+}
