@@ -19,6 +19,14 @@
     if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
   } catch (e) { /* no storage — system it is */ }
 </script>
+<!-- Google tag (gtag.js) — the here.events GA4 property, one stream for the map and every city; reports split by hostname -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BTQFXS68HN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BTQFXS68HN');
+</script>
 <title>Burien Events — the Highline PAC, Town Square &amp; the Seattle clubs</title>
 <meta name="description" content="What's on around Burien, WA — the Highline Performing Arts Center, Town Square and the farmers market, the Tin Room, BAT Theatre, the Highline Heritage Museum, Des Moines and Starfire Stadium, with the Seattle clubs' seasons.">
 <!-- the site's own address and what a shared link shows: name, line, and the share card (share.png, 1200×630, scripts/share-card.mjs) -->
