@@ -116,6 +116,29 @@
    "date": "2026-10-23",
    "time": "19:00",
    "url": "https://www.burienarts.org/7-stories/"
+  },
+  {
+   "venue": "Des Moines",
+   "title": "Des Moines Creek Park Run",
+   "date": "2026-10-24",
+   "time": "",
+   "url": "https://www.desmoineswa.gov/Calendar.aspx?EID=1418",
+   "type": "community"
+  },
+  {
+   "venue": "Around Burien",
+   "title": "Boo-in Burien Trick-or Treat",
+   "date": "2026-10-24",
+   "time": "12:00",
+   "url": "https://www.discoverburien.org/calendar/2025/boo-in-burien",
+   "type": "community"
+  },
+  {
+   "venue": "Steve Cox Memorial Park",
+   "title": "White Center Halloween carnival: Oct. 24 at Steve Cox Memorial Park",
+   "date": "2026-10-24",
+   "time": "14:00",
+   "url": "https://wcteenprogram.org/spooky-town-2026/"
   }
  ]
 }
