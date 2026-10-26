@@ -279,10 +279,10 @@
 
   var WORDS = {
     teamCity: 'Seattle', // the board drops it from the clubs' names ("Seattle Kraken" → Kraken)
-    presetDefault: 'Every room — Burien, Des Moines, Tukwila and White Center — every team and type',
+    presetDefault: 'Every venue — Burien, Des Moines, Tukwila and White Center — every team and type',
     presetNeighborhood: 'Burien only — the Performing Arts Center, Town Square, the community center, the museum, the Tin Room, the schools',
     presetBig: 'Only the places that hold 2,000 or more — Memorial Stadium, Starfire, the Des Moines parks, Steve Cox park',
-    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing Burien only.', big: 'Showing the big rooms only — the stadiums and the parks.' },
+    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing Burien only.', big: 'Showing the big venues only — the stadiums and the parks.' },
   };
 
   global.LQACity = {
