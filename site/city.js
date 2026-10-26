@@ -114,6 +114,7 @@
   // fold onto these rooms by alias or, for everywhere else, into Around Burien.
   var VENUES = {
     'Highline Performing Arts Center': { // the hall on the Highline High School campus: touring shows, the Northwest Symphony, the schools' concerts
+      geo: [47.46652, -122.32877],
       capacity: 1000,
       type: 'arts',
       cssVar: '--v-hpac',
@@ -125,6 +126,7 @@
       alias: /highline (performing arts|pac)|highline high school/i,
     },
     'Burien Town Square': { // the downtown plaza: the Thursday farmers market, the holiday and summer events
+      geo: [47.46706, -122.34021],
       capacity: 1500,
       type: 'community',
       cssVar: '--v-townsq',
@@ -134,6 +136,7 @@
       alias: /town square/i,
     },
     'Burien Community Center': { // the city's rec building beside Moshier Park (Día de los Muertos, the city's own programs)
+      geo: [47.47097, -122.34142],
       capacity: 300,
       type: 'community',
       cssVar: '--v-bcc',
@@ -143,6 +146,7 @@
       alias: /burien community center/i,
     },
     'Highline Heritage Museum': { // the area's history museum on SW 152nd (talks, 7 Stories, exhibitions) — no site of its own that resolves; B-Town's venue page stands in
+      geo: [47.46648, -122.34543],
       capacity: 100,
       type: 'arts',
       cssVar: '--v-museum',
@@ -152,6 +156,7 @@
       alias: /highline heritage/i,
     },
     'The Tin Room': { // Olde Burien's bar and grill with a stage (its SpotHopper site prints no calendar; the town calendars carry its nights)
+      geo: [47.46667, -122.34687],
       capacity: 150,
       type: 'concert',
       cssVar: '--v-tinroom',
@@ -161,6 +166,7 @@
       alias: /tin room/i,
     },
     'Kennedy Catholic High School': { // BAT Theatre's stage since 2025 (its own site is walled), the school's concerts
+      geo: [47.47843, -122.33086],
       capacity: 600,
       type: 'arts',
       cssVar: '--v-kennedy',
@@ -170,6 +176,7 @@
       alias: /kennedy catholic/i,
     },
     'Highline Memorial Stadium': { // the district's stadium beside the PAC: Highline and Kennedy football and soccer
+      geo: [47.4652, -122.3322],
       capacity: 4000,
       type: 'sports',
       cssVar: '--v-memorial',
@@ -179,6 +186,7 @@
       alias: /highline memorial stadium/i,
     },
     'Around Burien': { // everywhere else the town calendars list — Downtown Burien, the parks, the Elks, the bottle shops, the pop-ups (groundsVenue)
+      geo: [47.46706, -122.33967],
       capacity: 500,
       type: 'community',
       cssVar: '--v-around',
@@ -187,6 +195,7 @@
       icon: 'https://www.google.com/s2/favicons?domain=b-townblog.com&sz=128',
     },
     'Des Moines': { // the next town down the shore: the city's parks calendar — Beach Park, the Marina, the Field House
+      geo: [47.40749, -122.31918],
       area: 'town',
       capacity: 2000,
       type: 'community',
@@ -202,6 +211,7 @@
       alias: /des moines/i,
     },
     'Starfire Stadium': { // Tukwila, ten minutes north: the Seawolves' ground (Major League Rugby, March to June); both Ticketmaster records are watched
+      geo: [47.47009, -122.24938],
       area: 'town',
       capacity: 4500,
       type: 'sports',
@@ -213,6 +223,7 @@
       alias: /starfire/i,
     },
     'Steve Cox Memorial Park': { // White Center's park and fields, just over the north line (Jubilee Days, the markets)
+      geo: [47.51099, -122.35201],
       area: 'town',
       capacity: 2500,
       type: 'community',
@@ -284,6 +295,22 @@
     ics: { name: 'Burien Events', short: 'Burien Events', teams: 'Seattle home teams — every season', prodid: '-//here.events//burien-events//EN', uidDomain: 'fosdal.net', // the UID domain the whole family issues (the shared ics test pins it)
       desc: 'Upcoming events around Burien\\, WA — the Highline Performing Arts Center\\, Town Square\\, the town calendars\\, Des Moines and Starfire\\, with the Seattle clubs\' seasons' },
     teams: TEAMS,
+    map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — Steve, 2026-10-25
+      kind: 'urban',
+      bbox: [47.38, -122.42, 47.53, -122.2], // south, west, north, east — Burien and the Highline towns — Des Moines at the foot, White Center at the top, Starfire at the right
+      home: [47.455, -122.36, 47.485, -122.31], // the view at first; the fit button shows the whole frame
+      roads: ['motorway', 'trunk', 'primary'],
+      tolerance: 0.5,
+      labels: [
+        { name: 'Burien', lat: 47.4699, lon: -122.3485, anchor: 'end' },
+        { name: 'Des Moines', lat: 47.3988, lon: -122.3099, anchor: 'start' },
+        { name: 'Normandy Park', lat: 47.4352, lon: -122.3396, anchor: 'end' },
+        { name: 'SeaTac', lat: 47.4449, lon: -122.2831, anchor: 'start' },
+        { name: 'White Center', lat: 47.5164, lon: -122.3557, anchor: 'start' },
+        { name: 'Tukwila', lat: 47.4627, lon: -122.2559, anchor: 'start' },
+        { name: 'Puget Sound', lat: 47.455, lon: -122.395, kind: 'water', anchor: 'middle' },
+      ],
+    },
     venues: VENUES,
     feeds: FEEDS,
     defaultOn: DEFAULT_ON,
